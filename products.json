@@ -1,0 +1,706 @@
+[
+  {
+    "image": "https://www.startech.com.bd/image/cache/catalog/processor/amd/Athlon/athlon-500x500.jpg",
+    "name": "AMD Athlon 200GE AM4 Socket Desktop Processor with Radeon Vega 3 Graphics",
+    "category": "CPU / Processor",
+    "price": 199.99,
+    "status": "In Stock",
+    "rating": 4.5,
+    "description": "AMD Athlon Pro 200GE is a dual-core Processor with SMT-enabled, so it has four threads active and 512 KB L2 cache per core, and 4 MB shared L3 cache. The base clock is 3.20 GHz. The primary limitation is PCI-Express 3.0 at x8 for graphics. Raven Ridge is an unlocked processor, that enabled multiplier we managed to get a proper 3.9 GHz out of the two cores at a voltage of 1.4 volts. One thing you do need to keep in mind is that the memory will be restricted to 2667 MHz maximum (dual-channel).",
+    "features": {
+      "brand": "AMD",
+      "model": "Athlon 200GE",
+      "specification": "3.2GHz Base Frequency, ",
+      "port": "4",
+      "type": "",
+      "resolution": "1200",
+      "voltage": "35W"
+    },
+    "reviews": [
+      {
+        "id": 1,
+        "name": "Jhon",
+        "review": "Very good",
+        "rating": 4
+      },
+      {
+        "id": 2,
+        "name": "Kbair",
+        "review": "Very good, use it",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "image": "https://www.startech.com.bd/image/cache/catalog/processor/Intel/pentium-gold-g6405/pentium-gold-g6405-01-500x500.webp",
+    "name": "Intel Pentium Gold G6405 Coffee Lake Processor",
+    "category": "CPU / Processor",
+    "price": 149.99,
+    "status": "In Stock",
+    "rating": 4.2,
+    "description": "The Intel Pentium Gold G6405 Coffee Lake Processor comes with 4M Cache, 4.10 GHz Processor Base Frequency. This Intel Pentium Gold G6405 processor comes with a new breed that has an integrated Intel UHD Graphics 610, so a separate graphics card is not required for its functionality. This new Comet Lake microarchitecture is manufactured with the 14nm process (Lithography) that comes with 2 cores and HyperThreading. As this chip is updated to the latest BIOS revision, it nicely fits into any Intel 300-series motherboard. Focusing on this, all the major motherboard manufacturers have already started BIOS updates for their 300-series lineup Additionally, this Intel Pentium Gold G6405 processor also supports dual-channel 2666 MHz DDR4 memory and utilizes 10th-generation Intel technology.",
+    "features": {
+      "brand": "Intel",
+      "model": "Intel Pentium Gold G6405",
+      "specification": "4.10 GHz,",
+      "port": "4",
+      "type": "",
+      "resolution": "1200",
+      "voltage": "550v"
+    },
+    "reviews": [
+      {
+        "id": 1,
+        "name": "Hasan",
+        "review": "Used it.",
+        "rating": 4
+      },
+      {
+        "id": 2,
+        "name": "Khan",
+        "review": "Very good, use it",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "image": "https://www.startech.com.bd/image/cache/catalog/motherboard/asrock/a520m-hvs/a520m-hvs-01-500x500.webp",
+    "name": "ASRock A520M-HVS AMD AM4 Micro ATX Motherboard",
+    "category": "Motherboard",
+    "price": 79.99,
+    "status": "Out of stock",
+    "rating": 4.5,
+    "description": "",
+    "features": {
+      "brand": "abc",
+      "model": "ad",
+      "specification": "",
+      "port": "4",
+      "type": "",
+      "resolution": "1200",
+      "voltage": "550v"
+    },
+    "reviews": [
+      {
+        "id": 1,
+        "name": "Jhon",
+        "review": "Very good",
+        "rating": 4
+      },
+      {
+        "id": 2,
+        "name": "Kbair",
+        "review": "Very good, use it",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "image": "https://www.startech.com.bd/image/cache/catalog/component/motherboard/msi-ryzan/b450m-a-pro-max/b450m-a-pro-max-1-500x500.jpg",
+    "name": "MSI B450M-A PRO MAX AMD AM4 Motherboard",
+    "category": "Motherboard",
+    "price": 119.99,
+    "status": "In Stock",
+    "rating": 4.5,
+    "description": "",
+    "features": {
+      "brand": "abc",
+      "model": "ad",
+      "specification": "",
+      "port": "4",
+      "type": "",
+      "resolution": "1200",
+      "voltage": "550v"
+    },
+    "reviews": [
+      {
+        "id": 1,
+        "name": "Jhon",
+        "review": "Very good",
+        "rating": 4
+      },
+      {
+        "id": 2,
+        "name": "Kbair",
+        "review": "Very good, use it",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "image": "https://www.startech.com.bd/image/cache/catalog/ram/transcend/jetram-4gb/jetram-4gb-01-500x500.webp",
+    "name": "Transcend JetRam 4GB DDR4 3200MHz U-DIMM Desktop RAM",
+    "category": "RAM",
+    "price": 89.99,
+    "status": "In Stock",
+    "rating": 4.6,
+    "description": "",
+    "features": {
+      "brand": "abc",
+      "model": "ad",
+      "specification": "",
+      "port": "4",
+      "type": "",
+      "resolution": "1200",
+      "voltage": "550v"
+    },
+    "reviews": [
+      {
+        "id": 1,
+        "name": "Jhon",
+        "review": "Very good",
+        "rating": 4
+      },
+      {
+        "id": 2,
+        "name": "Kbair",
+        "review": "Very good, use it",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "image": "https://www.startech.com.bd/image/cache/catalog/ssd/hp-ssd/s700-500x500.jpg",
+    "name": "HP S700 120GB 2.5\" SSD",
+    "category": "RAM",
+    "price": 249.99,
+    "status": "In Stock",
+    "rating": 4.4,
+    "description": "",
+    "features": {
+      "brand": "HP",
+      "model": "HP S700 120GB",
+      "specification": "Protect your data files with the HP SSD S700 series By using 3D NAND Flash and three-dimensional stacking method, HP S700 series can provide higher storage density and capacity and is more reliable\n\nBetter performance, more durable The advanced wear overall balancing algorithm of HP S700 series increase the TBW (Total Bytes Written) and improve the durability of SSD, which fully meet the users requirement for design, video editing, games programming, office and various storage applications.\n\nHigher-order LDPC error correction, more secure and reliable storage HP S700 series supports LDPC (Low Density Parity Check Code) error correction mechanism. It can do high speed parallel decoding, real-time error correction, which ensures the security and integrity of data transmission; avoids performance degradation resulting from long-term use; provides long lasting high speed read and write performance.",
+      "port": "4",
+      "type": "",
+      "resolution": "1200",
+      "voltage": "550v"
+    },
+    "reviews": [
+      {
+        "id": 1,
+        "name": "Jhon",
+        "review": "Very good",
+        "rating": 4
+      },
+      {
+        "id": 2,
+        "name": "Kbair",
+        "review": "Very good, use it",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "image": "https://www.startech.com.bd/image/cache/catalog/ssd/netac/ls-ne-sa500/ls-ne-sa500-01-500x500.webp",
+    "name": "Netac SA500 120GB 2.5-inch SATAIII SSD",
+    "category": "Storage Device",
+    "price": 89.99,
+    "status": "In Stock",
+    "rating": 4.6,
+    "description": "",
+    "features": {
+      "brand": "Netac",
+      "model": "SA500",
+      "specification": "",
+      "port": "4",
+      "type": "",
+      "resolution": "1200",
+      "voltage": "550v"
+    },
+    "reviews": [
+      {
+        "id": 1,
+        "name": "Jhon",
+        "review": "Very good",
+        "rating": 4
+      },
+      {
+        "id": 2,
+        "name": "Kbair",
+        "review": "Very good, use it",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "image": "https://www.startech.com.bd/image/cache/catalog/ssd/dahua/c800/c800-01-500x500.jpg",
+    "name": "Dahua C800 120GB 2.5\" SATA SSD",
+    "category": "Storage Device",
+    "price": 89.99,
+    "status": "In Stock",
+    "rating": 4.5,
+    "description": "The brand new Dahua C800 SSD comes with 120GB capacity. This SSD Adopts high-quality wafer level chip, that supports SATA 6Gb/s Interface with transmission Sequential Read/ Write Up to 550 MB/s Up to 460 MB/s View information through S.M.A.R.T Provides better read and write performance with TRIM and NCQ Low power consumption management. This Dahua C800 SSD featured with 1500G/0.5 ms Maximum Operating Shock, MTBF 1,500,000 hours, 0 ~ 70 C (32 ~ 158 F) Operating temperature. The Dahua C800 SSD also equipperd with Micron 3D TLC NAND Flash technology. The latest Dahua C800 120GB 2.5\" SATA SSD has 03 years of warranty.",
+    "features": {
+      "brand": "Dahua",
+      "model": "C800",
+      "specification": "",
+      "port": "4",
+      "type": "",
+      "resolution": "1200",
+      "voltage": "550v"
+    },
+    "reviews": [
+      {
+        "id": 1,
+        "name": "Jhon",
+        "review": "Very good",
+        "rating": 4
+      },
+      {
+        "id": 2,
+        "name": "Kbair",
+        "review": "Very good, use it",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "image": "https://www.startech.com.bd/image/cache/catalog/RAM/TwinMOS/TwinMOS%204GB%20DDR4%202400-500x500.jpg",
+    "name": "TwinMOS 4GB DDR4 2400MHz Desktop RAM",
+    "category": "RAM",
+    "price": 89.99,
+    "status": "In Stock",
+    "rating": 4.6,
+    "description": "",
+    "features": {
+      "brand": "Twinmos",
+      "model": "TwinMOS 4GB DDR4 2400MHz",
+      "specification": "",
+      "port": "4",
+      "type": "",
+      "resolution": "1200",
+      "voltage": "550v"
+    },
+    "reviews": [
+      {
+        "id": 1,
+        "name": "Jhon",
+        "review": "Very good",
+        "rating": 4
+      },
+      {
+        "id": 2,
+        "name": "Kbair",
+        "review": "Very good, use it",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "image": "https://www.startech.com.bd/image/cache/catalog/ram/gskill/value/value-01-500x500.webp",
+    "name": "G.SKILL Value 4GB DDR4 2400Mhz Desktop RAM",
+    "category": "RAM",
+    "price": 89.99,
+    "status": "In Stock",
+    "rating": 4.6,
+    "description": "",
+    "features": {
+      "brand": "G.SKILL",
+      "model": "F4-2400C17S-4GNT",
+      "specification": "",
+      "port": "4",
+      "type": "",
+      "resolution": "1200",
+      "voltage": "550v"
+    },
+    "reviews": [
+      {
+        "id": 1,
+        "name": "Jhon",
+        "review": "Very good",
+        "rating": 4
+      },
+      {
+        "id": 2,
+        "name": "Kbair",
+        "review": "Very good, use it",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "image": "https://www.startech.com.bd/image/cache/catalog/motherboard/asus/prime-a520m-a-ii/prime-a520m-a-ii-01-500x500.webp",
+    "name": "Asus PRIME A520M-A II AM4 micro ATX Motherboard",
+    "category": "RAM",
+    "price": 89.99,
+    "status": "In Stock",
+    "rating": 4.6,
+    "description": "",
+    "features": {
+      "brand": "Asus",
+      "model": "PRIME A520M-A II",
+      "specification": "",
+      "port": "4",
+      "type": "",
+      "resolution": "1200",
+      "voltage": "550v"
+    },
+    "reviews": [
+      {
+        "id": 1,
+        "name": "Jhon",
+        "review": "Very good",
+        "rating": 4
+      },
+      {
+        "id": 2,
+        "name": "Kbair",
+        "review": "Very good, use it",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "image": "https://www.startech.com.bd/image/cache/catalog/motherboard/biostar/a520mh/a520mh-01-500x500.webp",
+    "name": "BIOSTAR A520MH DDR4 AMD AM4 Micro ATX Motherboard",
+    "category": "Motherboard",
+    "price": 89.99,
+    "status": "In Stock",
+    "rating": 4.6,
+    "description": "The BIOSTAR A520MH DDR4 AMD AM4 Micro ATX Motherboard is a high-performance motherboard designed for AMD Ryzen processors. It offers excellent compatibility and functionality for both the 3rd Gen (Matisse/Renoir) and 4th Gen (Vermeer) Ryzen processors. With its AMD A520 single-chip architecture, this motherboard delivers reliable and efficient performance. The motherboard supports up to 2-DIMM DDR4 memory modules, with speeds of up to DDR4-4933+(OC) supported. It offers a wide range of memory frequencies, including 4800(OC), 4600(OC), 4400(OC), 4000(OC), 3800(OC), 3600(OC), 3200, 2933, 2667, 2400, 2133, and 1866, allowing users to choose the optimal configuration for their system. The BIOSTAR A520MH features USB 3.2 Gen1 ports, providing fast data transfer speeds and support for various USB devices. It also includes PCIe M.2 slots, allowing for high-speed storage solutions such as SSDs. The motherboard supports HDMI 4K resolution, enabling users to connect their systems to high-resolution displays for an immersive visual experience. The BIOSTAR A520MH DDR4 AMD AM4 Micro ATX Motherboard offers a solid foundation for building a powerful and efficient AMD Ryzen-based system. Its extensive compatibility, versatile memory support, and convenient connectivity options make it a great choice for both casual and enthusiast users.",
+    "features": {
+      "brand": "BIOSTAR",
+      "model": "A520MH",
+      "specification": "",
+      "port": "4",
+      "type": "",
+      "resolution": "1200",
+      "voltage": "550v"
+    },
+    "reviews": [
+      {
+        "id": 1,
+        "name": "Jhon",
+        "review": "Very good",
+        "rating": 4
+      },
+      {
+        "id": 2,
+        "name": "Kbair",
+        "review": "Very good, use it",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "image": "https://www.startech.com.bd/image/cache/catalog/processor/amd/amd-ryzen-5-5500/amd-ryzen-5-5500-01-500x500.jpg",
+    "name": "AMD Ryzen 5 5500 Processor",
+    "category": "CPU / Processor",
+    "price": 89.99,
+    "status": "In Stock",
+    "rating": 3.6,
+    "description": "AMD Ryzen 5 5500 Processor is 6 processor cores, 12 threads, and an astonishingly efficient 45-65W TDP. This processor, It stands with 3.9GHz Base Clock, 4.4GHz Max Boost Clock, 3MB L2 Cache, 16MB L3 Cache with AM4 Package, and TSMC 7nm FinFET CMOS. This processor is built with PCIe 3.0 x8 and Wraith Spire Thermal Solution. The AMD Ryzen 5 5600G Processor provides DDR4 Up to 3200MHz memory with 2 memory channels. It has AMD StoreMI Technology. A fast and easy way to expand and accelerate the storage in a desktop PC with an AMD Ryzen processor. AMD StoreMI technology is a powerful tool for PC enthusiasts that want to improve load times, boot times, file management, or system responsiveness. Whatever your storage acceleration needs, AMD StoreMI technology automatically pairs your most-used files with an SSD cache for peak performance.  MD StoreMI technology can get files running at SSD-like speeds. Simply add an SSD to your system and let StoreMI do the rest. It also has AMD \"Zen 3\" Core Architecture with the fastest cores in the world for PC gamers. The \"Zen 3\" architecture represents the most comprehensive design overhaul of the \"Zen\" era. Over 20 major changes include wider and more flexible execution resources; significantly more load/store bandwidth to feed execution; and a streamlined front-end to get more threads in flight and do it faster. The \"Zen 3\" architecture can extract an average of 19% additional performance from every MHz of frequency relative to the previous generation2. This is a historically large generational improvement in IPC, and a major player in the architectureâ€™s ability to deliver unmatched single-core performance. The \"Zen 3\" architecture transitions to a new \"unified complex\" design that brings 8 cores and 32MB of L3 cache into a single group of resources. This dramatically reduces core-to-core and core-to-cache latencies by making every element of the die a next-door neighbor with minimal communication time. Latency-sensitive tasks like PC gaming especially benefit from this change, as tasks now have direct access to twice as much L3 cache versus the Zen 2. It also features the AMD Ryzen VR-Ready Premium for the best possible VR experiences, AMD offers select Ryzenâ„¢ VR-Ready Premium processors. AMD Ryzen 5 5500 Processor offers a 3-years warranty(No Warranty for Fan or Cooler).",
+    "features": {
+      "brand": "AMD",
+      "model": "Ryzen 5 5500",
+      "specification": "3.6GHz; Up to 4.2GHz",
+      "port": "4",
+      "type": "",
+      "resolution": "1200",
+      "voltage": "550v"
+    },
+    "reviews": [
+      {
+        "id": 1,
+        "name": "Jhon",
+        "review": "Very good",
+        "rating": 4
+      },
+      {
+        "id": 2,
+        "name": "Kbair",
+        "review": "Very good, use it",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "image": "https://www.startech.com.bd/image/cache/catalog/power-supply/ovo/ops-p4-450w/ops-p4-450w-02-500x500.webp",
+    "name": "OVO OPS-P4 450W ATX Power Supply",
+    "category": "Power Supply Unit",
+    "price": 89.99,
+    "status": "In Stock",
+    "rating": 3.6,
+    "description": "The OVO OPS-P4 450W ATX Power Supply is built with a mature and stable circuit and high-precision, reliable components. The power supply has a high-quality pure copper filter coil to offer a more steady output voltage. It includes a power-saving chipset. The maximum power is 450W, and the output is 20/24 pin. It has a built-in 12cm ventilation system and a 115/230V electricity input. This power supply is compatible with Intel/AMD CPUs. Input Frequency Range: 50-60Hz, Input Current: 8A-4A, Fan Size: 120mm, Lighting Effect: No ATX Main Connectors: 1, SATA Power Connectors: 2, ATX Form Factor, Others Standard ATX 20 + 4 P: Power supply for microcomputers, pinout: 20/24 pins, CPU Intel/AMD support 1 Auxiliary ATX, 4 Peripherals feeding, 1 feeding drive, 2 Serial ATA, 2 IDE, 1 built-in 12cm cooler Voltage Output: +12v:9A, -12v:0.5A, +5V:14A, +3.3v:6A, +5v is 1.5A. The OVO OPS-P4 450W ATX Power Supply comes with a 02-year warranty.",
+    "features": {
+      "brand": "Non-Brand",
+      "model": "OPS-P4",
+      "specification": "3.6GHz; Up to 4.2GHz",
+      "port": "4",
+      "type": "",
+      "resolution": "1200",
+      "voltage": "550v"
+    },
+    "reviews": [
+      {
+        "id": 1,
+        "name": "Jhon",
+        "review": "Very good",
+        "rating": 4
+      },
+      {
+        "id": 2,
+        "name": "Kbair",
+        "review": "Very good, use it",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "image": "https://www.startech.com.bd/image/cache/catalog/power-supply/revenger/vp-350/vp-350-01-500x500.webp",
+    "name": "Revenger VP 350 Watt Power Supply",
+    "category": "Power Supply Unit",
+    "price": 89.99,
+    "status": "In Stock",
+    "rating": 3.6,
+    "description": "The Revenger VP 350 Watt Power Supply is a high-quality power supply unit designed to power your computer components in a dependable and efficient manner. It can provide constant and stable power to your system with a continuous power output of 350 watts. The power supply has a 120 mm fan to assist disperse heat and keep the operating temperature low. This power supply is designed to work with a wide range of input voltages, ranging from 100VAC to 240VAC, and a frequency range of 47-63Hz. It has an AC input of 230VAC with a current of 4A and a frequency range of 47-63Hz. This makes it compatible with most power outlets in different regions. The Revenger VP 350 Watt power supply features a DC output of +3.3V, +5V, +12V, -12V, and +5Vsb, which ensures stable and reliable power delivery to all your components. It also has a total power output of 350 watts, which means it can power most mid-range systems with ease. This Revenger VP 350 Watt Power Supply is a reliable and efficient power supply unit that can provide stable power to your computer components. With its wide range of compatibility and reliable performance, it is an excellent choice for anyone looking to upgrade their power supply unit.",
+    "features": {
+      "brand": "Revenger",
+      "model": "VP 350",
+      "specification": "3.6GHz; Up to 4.2GHz",
+      "port": "4",
+      "type": "",
+      "resolution": "1200",
+      "voltage": "550v"
+    },
+    "reviews": [
+      {
+        "id": 1,
+        "name": "Jhon",
+        "review": "Very good",
+        "rating": 4
+      },
+      {
+        "id": 2,
+        "name": "Kbair",
+        "review": "Very good, use it",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "image": "https://www.startech.com.bd/image/cache/catalog/power-supply/power-train/pt-p200b/pt-p200b-01-500x500.webp",
+    "name": "Power Train PT-P200B 200W Power Supply",
+    "category": "Power Supply Unit",
+    "price": 89.99,
+    "status": "In Stock",
+    "rating": 3.6,
+    "description": "The Revenger VP 350 Watt Power Supply is a high-quality power supply unit designed to power your computer components in a dependable and efficient manner. It can provide constant and stable power to your system with a continuous power output of 350 watts. The power supply has a 120 mm fan to assist disperse heat and keep the operating temperature low. This power supply is designed to work with a wide range of input voltages, ranging from 100VAC to 240VAC, and a frequency range of 47-63Hz. It has an AC input of 230VAC with a current of 4A and a frequency range of 47-63Hz. This makes it compatible with most power outlets in different regions. The Revenger VP 350 Watt power supply features a DC output of +3.3V, +5V, +12V, -12V, and +5Vsb, which ensures stable and reliable power delivery to all your components. It also has a total power output of 350 watts, which means it can power most mid-range systems with ease. This Revenger VP 350 Watt Power Supply is a reliable and efficient power supply unit that can provide stable power to your computer components. With its wide range of compatibility and reliable performance, it is an excellent choice for anyone looking to upgrade their power supply unit.",
+    "features": {
+      "brand": "Power Train",
+      "model": "PT-P200B",
+      "specification": "3.6GHz; Up to 4.2GHz",
+      "port": "4",
+      "type": "",
+      "resolution": "1200",
+      "voltage": "220V"
+    },
+    "reviews": [
+      {
+        "id": 1,
+        "name": "Jhon",
+        "review": "Very good",
+        "rating": 4
+      },
+      {
+        "id": 2,
+        "name": "Kbair",
+        "review": "Very good, use it",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "image": "https://www.startech.com.bd/image/cache/catalog/monitor/enter/e-mo-a01/e-mo-a01-01-500x500.webp",
+    "name": "Enter E-MO-A01 19-inch HD LED Backlit Monitor",
+    "category": "Monitor",
+    "price": 89.99,
+    "status": "In Stock",
+    "rating": 3.6,
+    "description": "The E-MO-A01, a 19.1-inch VGA, and HDMI LED monitor, is a high-end offering from Enter. All Enter E-MO-A01 19.1 inch VGA & HDMI LED Monitors are built with premium materials and state-of-the-art production techniques, which allows them to meet the requirements in this increasingly competitive business. VGA and HDMI are accepted as input signals, and the display modes include VGA, SVGA, SXGA, and WXGA. The Enter E-MO-A01 features a 250ccl/m2 brightness rating and a 1440 x 900 resolution. It has a 60Hz refresh rate and a 5ms (TD) response time. The Enter E-MO-A01 19-inch HD LED Monitor has a 02-year warranty.",
+    "features": {
+      "brand": "Enter",
+      "model": "E-MO-A01",
+      "specification": "Flicker-Free",
+      "port": "VGA, HDMI",
+      "type": "",
+      "resolution": "(1440 x 900) HD",
+      "voltage": ""
+    },
+    "reviews": [
+      {
+        "id": 1,
+        "name": "Jhon",
+        "review": "Very good",
+        "rating": 4
+      },
+      {
+        "id": 2,
+        "name": "Kbair",
+        "review": "Very good, use it",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "image": "https://www.startech.com.bd/image/cache/catalog/monitor/philips/193v/193v-500x500.png",
+    "name": "PHILIPS 18.5\" 193V5LSB2 LED MONITOR",
+    "category": "Monitor",
+    "price": 89.99,
+    "status": "In Stock",
+    "rating": 3.6,
+    "description": "Smart Contrast for rich black details Smart Contrast is a Philips technology that analyzes the contents you are displaying, automatically adjusting colors and controlling back-light intensity to dynamically enhance contrast for the best digital images and videos or when playing games where dark hues are displayed. When Economy mode is selected, contrast is adjusted and back-lighting fine-tuned for just-right display of everyday office applications and lower power consumption",
+    "features": {
+      "brand": "PHILIPS",
+      "model": "193V",
+      "specification": "VESA mount",
+      "port": "VGA",
+      "type": "",
+      "resolution": "(1440 x 900) HD",
+      "voltage": ""
+    },
+    "reviews": [
+      {
+        "id": 1,
+        "name": "Jhon",
+        "review": "Very good",
+        "rating": 4
+      },
+      {
+        "id": 2,
+        "name": "Kbair",
+        "review": "Very good, use it",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "image": "https://www.startech.com.bd/image/cache/catalog/monitor/uniview/mw3222-x/mw3222-x-500x500.webp",
+    "name": "Uniview MW3222-X 22\" LED FHD Monitor With Built-In Speakers",
+    "category": "Monitor",
+    "price": 89.99,
+    "status": "In Stock",
+    "rating": 3.6,
+    "description": "The Uniview MW3222-X 22\" LED FHD Monitor is an excellent choice for anybody searching for a dependable and cost-effective monitor capable of handling both everyday work and entertainment. This monitor has a 21.5-inch LED-backlit display with a resolution of 1920x1080 and a contrast ratio of 3000:1, producing clear and brilliant pictures with rich colors and broad viewing angles. The display also offers a quick 7ms reaction time and a refresh rate of 60Hz, assuring smooth and lag-free performance while gaming, streaming video, and multitasking. The monitor has a VGA and an HDMI connector, so it may be connected to a variety of devices such as laptops, desktops, consoles, and media players. The Uniview MW3222-X 22\" LED FHD Monitor With Built-In Speakers offers a clean and attractive design with a narrow bezel and a solid base that enables VESA installation. The monitor also consumes less than 22W when turned on and less than 0.5W when turned off, making it energy-efficient and environmentally friendly. The kit includes a power cord, an adapter, a pedestal, and a fast guide. The net weight of the monitor is 2.2kg (4.85lb), while the gross weight is 3.3kg (7.28lb).",
+    "features": {
+      "brand": "Uniview",
+      "model": "MW3222-X",
+      "specification": "2x 1.5W Built-In Speakers",
+      "port": "1x VGA, 1x HDMI, 1x 3.5 mm",
+      "type": "",
+      "resolution": "(1920*1080) HD",
+      "voltage": ""
+    },
+    "reviews": [
+      {
+        "id": 1,
+        "name": "Jhon",
+        "review": "Very good",
+        "rating": 4
+      },
+      {
+        "id": 2,
+        "name": "Kbair",
+        "review": "Very good, use it",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "image": "https://www.startech.com.bd/image/cache/catalog/mouse/havit/ms851/ms851-1-500x500.jpg",
+    "name": "Havit MS851 USB Mouse",
+    "category": "Other",
+    "price": 89.99,
+    "status": "In Stock",
+    "rating": 3.6,
+    "description": "Havit MS851 USB Mouse comes with Navigate technologically inaccurate optics, Analyze 1000 DPI high, 3D gyro wheel function. This Wired USB Mouse provides a full-size with an ambidextrous shape that means you can use either hand to control this super-light USB mouse. This mouse is Convenient optical mouse with USB interface. Suitable for any computers with a USB port. It comes with Convenient optical mouse with USB interface. Suitable for any computers with a USB port. This mouse isa featured with 3,000,000 times Key Life, 5V Operating Voltage, 3 Key number with 1.35m length USB cable. The new Havit MS851 USB Mouse has 01 year warranty.",
+    "features": {
+      "brand": "Havit",
+      "model": "MS851",
+      "specification": "2x 1.5W Built-In Speakers",
+      "port": "1x VGA, 1x HDMI, 1x 3.5 mm",
+      "type": "",
+      "resolution": "1000DPI",
+      "voltage": ""
+    },
+    "reviews": [
+      {
+        "id": 1,
+        "name": "Jhon",
+        "review": "Very good",
+        "rating": 4
+      },
+      {
+        "id": 2,
+        "name": "Kbair",
+        "review": "Very good, use it",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "image": "https://www.startech.com.bd/image/cache/catalog/mouse/xtreme/m302/m302-01-500x500.webp",
+    "name": "Xtreme M302 USB Wired Optical Mouse",
+    "category": "Other",
+    "price": 89.99,
+    "status": "In Stock",
+    "rating": 3.6,
+    "description": "The Xtreme M302 USB Wired Optical Mouse comes in an attractive Black body with Orange accent colors. The 1000 DPI mouse is ergonomic and features a soft grip for lengthy use with no fatigue. A responsive, corrugated wheel gives a fast scrolling ability. Perfect weight balance in a light shell makes it ideal for office, home, and gaming simultaneously. The Xtreme M302 Optical Mouse Comes with a 6 months warranty.",
+    "features": {
+      "brand": "Xtreme",
+      "model": "M302",
+      "specification": "2x 1.5W Built-In Speakers",
+      "port": "1x VGA, 1x HDMI, 1x 3.5 mm",
+      "type": "",
+      "resolution": "1000DPI",
+      "voltage": ""
+    },
+    "reviews": [
+      {
+        "id": 1,
+        "name": "Jhon",
+        "review": "Very good",
+        "rating": 4
+      },
+      {
+        "id": 2,
+        "name": "Kbair",
+        "review": "Very good, use it",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "image": "https://www.startech.com.bd/image/cache/catalog/graphics-card/msi/gt-710-1gd3h-lp/gt-710-1gd3h-lp-01-500x500.webp",
+    "name": "MSI GT 710 1GD3H LP 1GB DDR3 Graphics Card",
+    "category": "Other",
+    "price": 89.99,
+    "status": "In Stock",
+    "rating": 3.6,
+    "description": "The MSI GT 710 1GD3H LP 1GB DDR3 Graphics Card is a low-profile graphics card designed for entry-level gaming and multimedia tasks. It offers a balance between performance and affordability, making it suitable for budget-conscious users or those with compact computer systems. With 1GB of DDR3 memory clocked at 1600 MHz, the GT 710 provides decent graphics performance for light gaming and everyday computing needs. While it may not handle graphically demanding games or applications, it can still deliver smooth visuals for casual gaming, video playback, and web browsing. The boost clock speed of the graphics card is set at 954 MHz, which helps in accelerating graphics processing for improved overall performance. The MSI GT 710 utilizes a PCI Express 2.0 x16 interface, although it uses only x8 lanes, providing compatibility with a wide range of motherboards. The GT 710 offers versatile options. It features an HDMI port for connecting to modern displays or TVs, a dual-link DVI-D port for digital video output, and a D-Sub (VGA) port for connecting to older monitors. This variety of outputs allows users to connect multiple displays simultaneously and choose the best connection method for their setup. The MSI GT 710 1GD3H LP 1GB DDR3 Graphics Card provides a cost-effective solution for users who require basic graphics performance for everyday tasks, light gaming, and multimedia needs. Its low-profile design makes it suitable for small form factor cases or systems with space constraints.",
+    "features": {
+      "brand": "MSI",
+      "model": "GT 710 1GD3H LP",
+      "specification": "2x 1.5W Built-In Speakers",
+      "port": "1x VGA, 1x HDMI, 1x 3.5 mm",
+      "type": "",
+      "resolution": "4K@30Hz",
+      "voltage": "300W"
+    },
+    "reviews": [
+      {
+        "id": 1,
+        "name": "Jhon",
+        "review": "Very good",
+        "rating": 4
+      },
+      {
+        "id": 2,
+        "name": "Kbair",
+        "review": "Very good, use it",
+        "rating": 5
+      }
+    ]
+  }
+]
