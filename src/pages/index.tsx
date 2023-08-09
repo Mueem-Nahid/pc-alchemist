@@ -2,11 +2,16 @@ import Head from 'next/head'
 import {Inter} from 'next/font/google'
 import {HeroSection} from "@/components/HeroSection";
 import {FeaturedSection} from "@/components/FeaturedSection";
-
+import {getFeaturedProducts} from "@/services/apiServices";
+import {IProduct} from "@/utils/globalTypes";
 
 const inter = Inter({subsets: ['latin']})
 
-export default function Home() {
+interface HomeProps {
+   featuredProducts: IProduct[];
+}
+
+export default function Home({featuredProducts}: HomeProps) {
    return (
       <>
          <Head>
@@ -17,8 +22,31 @@ export default function Home() {
          </Head>
          <main>
             <HeroSection/>
-            <FeaturedSection/>
+            <FeaturedSection featuredProducts={featuredProducts}/>
          </main>
       </>
    )
+};
+
+export const getStaticProps = async () => {
+   let data;
+   try {
+      if (typeof window === 'undefined') {
+         return {
+            props: {
+               featuredProducts: [],
+            },
+         };
+      }
+      const res = await getFeaturedProducts();
+      data = await res.json();
+   } catch (e) {
+      console.log(e)
+   }
+   return {
+      props: {
+         featuredProducts: data,
+      },
+      revalidate: 30,
+   };
 }

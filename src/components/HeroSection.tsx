@@ -1,4 +1,4 @@
-import { createStyles, Overlay, Container, Title, Button, Text, rem } from '@mantine/core';
+import {createStyles, Overlay, Container, Title, Button, Text, rem} from '@mantine/core';
 
 const useStyles = createStyles((theme) => ({
    hero: {
@@ -15,7 +15,7 @@ const useStyles = createStyles((theme) => ({
       flexDirection: 'column',
       justifyContent: 'flex-end',
       alignItems: 'flex-start',
-      paddingBottom: `calc(${theme.spacing.xl} * 6)`,
+      paddingBottom: `calc(${theme.spacing.xl} * 4)`,
       zIndex: 1,
       position: 'relative',
 
@@ -27,7 +27,7 @@ const useStyles = createStyles((theme) => ({
 
    title: {
       color: theme.white,
-      fontSize: rem(60),
+      fontSize: rem(50),
       fontWeight: 900,
       lineHeight: 1.1,
 
@@ -62,7 +62,7 @@ const useStyles = createStyles((theme) => ({
 }));
 
 export function HeroSection() {
-   const { classes } = useStyles();
+   const {classes} = useStyles();
 
    return (
       <div className={classes.hero}>
@@ -72,10 +72,13 @@ export function HeroSection() {
             zIndex={0}
          />
          <Container className={classes.container}>
-            <Title className={classes.title}>A fully featured React components library</Title>
+            <Title className={classes.title}>PC Alchemist - Your Ultimate PC Builder</Title>
             <Text className={classes.description} size="xl" mt="xl">
-               Build fully functional accessible web applications faster than ever – Mantine includes
-               more than 120 customizable components and hooks to cover you in any situation
+               Welcome to PC Alchemist, your one-stop destination for building your dream PC. Explore a wide range of
+               high-quality PC components, from powerful processors to cutting-edge graphics cards. Our user-friendly PC
+               Builder tool allows you to craft your custom PC with ease. Whether you&apos;re a hardcore gamer or a
+               professional content creator, PC Alchemist has everything you need to create the perfect PC setup. Start
+               your PC-building journey today!
             </Text>
 
             <Button variant="gradient" size="xl" radius="xl" className={classes.control}>

@@ -1,5 +1,6 @@
 import {Container, createStyles, rem, SimpleGrid, Title,} from '@mantine/core';
 import {FeaturesCard} from "@/components/FeaturesCard";
+import {IProduct} from "@/utils/globalTypes";
 
 
 const useStyles = createStyles((theme) => ({
@@ -46,7 +47,11 @@ const useStyles = createStyles((theme) => ({
    },
 }));
 
-export function FeaturedSection() {
+interface IProps {
+   featuredProducts: IProduct[]
+}
+
+export function FeaturedSection({featuredProducts}: IProps) {
    const {classes} = useStyles();
 
    return (
@@ -56,12 +61,19 @@ export function FeaturedSection() {
             Featured Products
          </Title>
          <SimpleGrid cols={3} spacing="xl" mt={50} breakpoints={[{maxWidth: 'md', cols: 1}]}>
-            <FeaturesCard/>
-            <FeaturesCard/>
-            <FeaturesCard/>
-            <FeaturesCard/>
-            <FeaturesCard/>
-            <FeaturesCard/>
+            {
+               featuredProducts?.map((featured: IProduct) => (
+                  <FeaturesCard
+                     key={featured._id}
+                     image={featured.image}
+                     name={featured.name}
+                     category={featured.category}
+                     price={featured.price}
+                     status={featured.status}
+                     rating={featured.rating}
+                  />
+               ))
+            }
          </SimpleGrid>
       </Container>
    );

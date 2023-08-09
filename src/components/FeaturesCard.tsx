@@ -1,5 +1,5 @@
-import { Card, Image, Text, Group, Badge, createStyles, Center, Button, rem } from '@mantine/core';
-import { IconGasStation, IconGauge, IconManualGearbox, IconUsers } from '@tabler/icons-react';
+import {Card, Image, Text, Group, Badge, createStyles, Center, Button, rem} from '@mantine/core';
+import {IconGasStation, IconGauge, IconManualGearbox, IconUsers} from '@tabler/icons-react';
 
 const useStyles = createStyles((theme) => ({
    card: {
@@ -39,60 +39,50 @@ const useStyles = createStyles((theme) => ({
 }));
 
 const mockdata = [
-   { label: '4 passengers', icon: IconUsers },
-   { label: '100 km/h in 4 seconds', icon: IconGauge },
-   { label: 'Automatic gearbox', icon: IconManualGearbox },
-   { label: 'Electric', icon: IconGasStation },
+   {label: '4 passengers', icon: IconUsers},
+   {label: '100 km/h in 4 seconds', icon: IconGauge},
+   {label: 'Automatic gearbox', icon: IconManualGearbox},
+   {label: 'Electric', icon: IconGasStation},
 ];
 
-export function FeaturesCard() {
-   const { classes } = useStyles();
-   const features = mockdata.map((feature) => (
-      <Center key={feature.label}>
-         <feature.icon size="1.05rem" className={classes.icon} stroke={1.5} />
-         <Text size="xs">{feature.label}</Text>
-      </Center>
-   ));
+interface IFeaturedProps {
+   image: string;
+   name: string;
+   category: string;
+   price: number;
+   status: string;
+   rating: number
+}
+
+export function FeaturesCard({name, category, image, price, status, rating}: IFeaturedProps) {
+   const {classes} = useStyles();
 
    return (
       <Card withBorder radius="md" className={classes.card}>
          <Card.Section className={classes.imageSection}>
-            <Image src="https://i.imgur.com/ZL52Q2D.png" alt="Tesla Model S" />
+            <Image src={image} alt={name}/>
          </Card.Section>
 
          <Group position="apart" mt="md">
             <div>
-               <Text fw={500}>Tesla Model S</Text>
+               <Text fw={500}>{name.slice(0,20)} ...</Text>
                <Text fz="xs" c="dimmed">
-                  Free recharge at any station
+                  {category}
                </Text>
             </div>
-            <Badge variant="outline">25% off</Badge>
+            <Badge>{status}</Badge>
          </Group>
 
-         <Card.Section className={classes.section} mt="md">
-            <Text fz="sm" c="dimmed" className={classes.label}>
-               Basic configuration
-            </Text>
-
-            <Group spacing={8} mb={-8}>
-               {features}
-            </Group>
-         </Card.Section>
-
          <Card.Section className={classes.section}>
-            <Group spacing={30}>
+            <Group spacing={50}>
                <div>
-                  <Text fz="xl" fw={700} sx={{ lineHeight: 1 }}>
-                     $168.00
-                  </Text>
-                  <Text fz="sm" c="dimmed" fw={500} sx={{ lineHeight: 1 }} mt={3}>
-                     per day
+                  <Text fz="xl" fw={700} sx={{lineHeight: 1}}>
+                     ${price}
                   </Text>
                </div>
 
-               <Button radius="xl" style={{ flex: 1 }}>
-                  Rent now
+               <Button className="button-color" radius="xl" style={{flex: 1}}>
+                  Details
                </Button>
             </Group>
          </Card.Section>
