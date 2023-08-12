@@ -1,5 +1,6 @@
 import {Card, Image, Text, Group, Badge, createStyles, Center, Button, rem} from '@mantine/core';
 import {IconGasStation, IconGauge, IconManualGearbox, IconUsers} from '@tabler/icons-react';
+import Link from "next/link";
 
 const useStyles = createStyles((theme) => ({
    card: {
@@ -39,6 +40,7 @@ const useStyles = createStyles((theme) => ({
 }));
 
 interface IFeaturedProps {
+   id: string;
    image: string;
    name: string;
    category: string;
@@ -47,7 +49,7 @@ interface IFeaturedProps {
    rating: number
 }
 
-export function FeaturesCard({name, category, image, price, status, rating}: IFeaturedProps) {
+export function FeaturesCard({id, name, category, image, price, status, rating}: IFeaturedProps) {
    const {classes} = useStyles();
 
    return (
@@ -58,7 +60,7 @@ export function FeaturesCard({name, category, image, price, status, rating}: IFe
 
          <Group position="apart" mt="md">
             <div>
-               <Text fw={500}>{name.slice(0,20)} ...</Text>
+               <Text fw={500}>{name.slice(0, 20)} ...</Text>
                <Text fz="xs" c="dimmed">
                   {category}
                </Text>
@@ -75,7 +77,9 @@ export function FeaturesCard({name, category, image, price, status, rating}: IFe
                </div>
 
                <Button className="button-color" radius="xl" style={{flex: 1}}>
-                  Details
+                  <Link href={`product/${id}`} className="link">
+                     Details
+                  </Link>
                </Button>
             </Group>
          </Card.Section>

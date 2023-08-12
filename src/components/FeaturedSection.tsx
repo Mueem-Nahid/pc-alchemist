@@ -65,6 +65,7 @@ export function FeaturedSection({featuredProducts}: IProps) {
                featuredProducts?.map((featured: IProduct) => (
                   <FeaturesCard
                      key={featured._id}
+                     id={featured._id}
                      image={featured.image}
                      name={featured.name}
                      category={featured.category}

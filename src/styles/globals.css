@@ -7,6 +7,11 @@
 
 }
 
+.link {
+    color: white;
+    text-decoration: none;
+}
+
 .button-color {
     background-color: #A9191A;
 }
@@ -30,8 +35,9 @@
     justify-content: center;
     align-items: center;
 }
+
 .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal {
-    bottom: -3px!important;
+    bottom: -3px !important;
 }
 
 /*.swiper-slide img {*/
