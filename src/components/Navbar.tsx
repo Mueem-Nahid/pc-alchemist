@@ -19,13 +19,14 @@ import {
 } from '@mantine/core';
 import {useDisclosure} from '@mantine/hooks';
 import {
-   IconBook,
-   IconChartPie3,
+   IconAppWindow,
+   IconArtboard,
+   IconBatteryCharging2,
    IconChevronDown,
-   IconCode,
-   IconCoin,
-   IconFingerprint,
-   IconNotification,
+   IconComponents,
+   IconCpu,
+   IconDeviceDesktop,
+   IconDeviceSdCard,
 } from '@tabler/icons-react';
 import Image from "next/image";
 import PCAlchemistLogo from "@/assets/pc-alchemist-logo.png";
@@ -92,39 +93,39 @@ const useStyles = createStyles((theme) => ({
 
 const mockdata = [
    {
-      icon: IconCode,
+      icon: IconCpu,
       title: 'CPU / Processor',
-      description: 'This Pokémon’s cry is very loud and distracting',
+      description: 'Central Processing Units (CPUs) for computers',
    },
    {
-      icon: IconCoin,
+      icon: IconArtboard,
       title: 'Motherboard',
-      description: 'The fluid of Smeargle’s tail secretions changes',
+      description: 'Main circuit board of a computer that connects various components',
    },
    {
-      icon: IconBook,
+      icon: IconAppWindow,
       title: 'Ram',
-      description: 'Yanma is capable of seeing 360 degrees without',
+      description: 'Random Access Memory for temporary data storage',
    },
    {
-      icon: IconFingerprint,
+      icon: IconBatteryCharging2,
       title: 'Power Supply Unit',
-      description: 'The shell’s rounded shape and the grooves on its.',
+      description: 'Provides power to the components in a computer',
    },
    {
-      icon: IconChartPie3,
+      icon: IconDeviceSdCard,
       title: 'Storage Device',
-      description: 'This Pokémon uses its flying ability to quickly chase',
+      description: 'Data storage devices such as hard drives and solid-state drives',
    },
    {
-      icon: IconNotification,
+      icon: IconDeviceDesktop,
       title: 'Monitor',
-      description: 'Combusken battles with the intensely hot flames it spews',
+      description: 'Displays for computers',
    },
    {
-      icon: IconNotification,
+      icon: IconComponents,
       title: 'Others',
-      description: 'Combusken battles with the intensely hot flames it spews',
+      description: 'Other PC components and peripherals',
    },
 ];
 

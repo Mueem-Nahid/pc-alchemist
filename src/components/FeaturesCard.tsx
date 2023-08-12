@@ -38,13 +38,6 @@ const useStyles = createStyles((theme) => ({
    },
 }));
 
-const mockdata = [
-   {label: '4 passengers', icon: IconUsers},
-   {label: '100 km/h in 4 seconds', icon: IconGauge},
-   {label: 'Automatic gearbox', icon: IconManualGearbox},
-   {label: 'Electric', icon: IconGasStation},
-];
-
 interface IFeaturedProps {
    image: string;
    name: string;

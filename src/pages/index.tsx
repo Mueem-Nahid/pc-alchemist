@@ -4,6 +4,7 @@ import {HeroSection} from "@/components/HeroSection";
 import {FeaturedSection} from "@/components/FeaturedSection";
 import {getFeaturedProducts} from "@/services/apiServices";
 import {IProduct} from "@/utils/globalTypes";
+import CategoriesSection from "@/components/CategoriesSection";
 
 const inter = Inter({subsets: ['latin']})
 
@@ -23,6 +24,7 @@ export default function Home({featuredProducts}: HomeProps) {
          <main>
             <HeroSection/>
             <FeaturedSection featuredProducts={featuredProducts}/>
+            <CategoriesSection />
          </main>
       </>
    )
@@ -31,13 +33,13 @@ export default function Home({featuredProducts}: HomeProps) {
 export const getStaticProps = async () => {
    let data;
    try {
-      if (typeof window === 'undefined') {
-         return {
-            props: {
-               featuredProducts: [],
-            },
-         };
-      }
+      // if (typeof window === 'undefined') {
+      //    return {
+      //       props: {
+      //          featuredProducts: [],
+      //       },
+      //    };
+      // }
       const res = await getFeaturedProducts();
       data = await res.json();
    } catch (e) {
