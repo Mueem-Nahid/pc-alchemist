@@ -20,6 +20,11 @@
     background-color: #E66061 !important;
 }
 
+.breadcrumb-link {
+    text-decoration: none;
+    color: rgb(28, 126, 214);
+}
+
 .swiper {
     width: 100%;
     height: 100%;

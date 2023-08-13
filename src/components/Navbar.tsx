@@ -192,24 +192,9 @@ export function Navbar() {
                            mx="-md"
                            color={theme.colorScheme === 'dark' ? 'dark.5' : 'gray.1'}
                         />
-
                         <SimpleGrid cols={2} spacing={0}>
                            {links}
                         </SimpleGrid>
-
-                        <div className={classes.dropdownFooter}>
-                           <Group position="apart">
-                              <div>
-                                 <Text fw={500} fz="sm">
-                                    Get started
-                                 </Text>
-                                 <Text size="xs" color="dimmed">
-                                    Their food sources have decreased, and their numbers
-                                 </Text>
-                              </div>
-                              <Button variant="default">Get started</Button>
-                           </Group>
-                        </div>
                      </HoverCard.Dropdown>
                   </HoverCard>
                   <a href="#" className={classes.link}>
@@ -219,9 +204,10 @@ export function Navbar() {
 
                <Group className={classes.hiddenMobile}>
                   {/*<Button variant="default">Log in</Button>*/}
-                  <Button className="button-color" color="">PC Builder</Button>
+                  <Link href='/tool/pc-builder' className='link'>
+                     <Button className="button-color" color="">PC Builder</Button>
+                  </Link>
                </Group>
-
                <Burger opened={drawerOpened} onClick={toggleDrawer} className={classes.hiddenDesktop}/>
             </Group>
          </Header>
@@ -257,7 +243,9 @@ export function Navbar() {
                <Divider my="sm" color={theme.colorScheme === 'dark' ? 'dark.5' : 'gray.1'}/>
 
                <Group position="center" grow pb="xl" px="md">
-                  <Button className="button-color">PC Builder</Button>
+                  <Link href='/tool/pc-builder' className='link'>
+                     <Button className="button-color">PC Builder</Button>
+                  </Link>
                </Group>
             </ScrollArea>
          </Drawer>
