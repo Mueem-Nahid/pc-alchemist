@@ -1,16 +1,29 @@
-import {Container, SimpleGrid, Text} from "@mantine/core";
+import {Box, Breadcrumbs, Container, SimpleGrid, Text} from "@mantine/core";
 import {getCategories, getProductsByCategory} from "@/services/apiServices";
 import {ICategory, IProduct} from "@/utils/globalTypes";
 import {FeaturesCard} from "@/components/FeaturesCard";
+import Link from "next/link";
 
 interface IProps {
    products: IProduct[];
+   category: string
 }
 
-export default function CategoryPage({products}: IProps) {
+export default function CategoryPage({products, category}: IProps) {
+   const items = [
+      {title: 'Home', href: '/'},
+      {title: `${category}`, href: `/category/${category}`},
+   ].map((item, index) => (
+      <Link className='breadcrumb-link' href={item.href} key={index} style={{textTransform: 'capitalize'}}>
+         {item.title}
+      </Link>
+   ));
+
    return (
       <Container size="lg" py='2.5rem'>
-         <Text>Category</Text>
+         <Box>
+            <Breadcrumbs separator="→" mb='1rem'>{items}</Breadcrumbs>
+         </Box>
          <SimpleGrid cols={3} spacing="xl" mt={50} breakpoints={[{maxWidth: 'md', cols: 1}]}>
             {
                products?.map((featured: IProduct) => (
@@ -66,6 +79,7 @@ export const getStaticProps = async (ctx: { params: { categoryName: string; }; }
    return {
       props: {
          products: data,
+         category: categoryName
       },
       revalidate: 30,
    };

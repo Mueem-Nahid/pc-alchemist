@@ -29,7 +29,7 @@ const ChooseComponent = ({components, category}: IProps) => {
       {title: 'PC Builder', href: '/tool/pc-builder'},
       {title: `Choose ${category}`, href: `/tool/pc-builder/choose?component=${category}`},
    ].map((item, index) => (
-      <Link className='breadcrumb-link' href={item.href} key={index}>
+      <Link className='breadcrumb-link' href={item.href} key={index} style={{textTransform: 'capitalize'}}>
          {item.title}
       </Link>
    ));

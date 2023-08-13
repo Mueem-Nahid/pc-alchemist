@@ -1,5 +1,4 @@
-import {Card, Image, Text, Group, Badge, createStyles, Center, Button, rem} from '@mantine/core';
-import {IconGasStation, IconGauge, IconManualGearbox, IconUsers} from '@tabler/icons-react';
+import {Badge, Button, Card, createStyles, Group, Image, rem, Text} from '@mantine/core';
 import Link from "next/link";
 
 const useStyles = createStyles((theme) => ({
@@ -72,14 +71,14 @@ export function FeaturesCard({id, name, category, image, price, status, rating}:
          </Group>
 
          <Card.Section className={classes.section}>
-            <Group spacing={50}>
+            <Group spacing={40}>
                <div>
                   <Text fz="xl" fw={700} sx={{lineHeight: 1}}>
                      ${price}
                   </Text>
                </div>
-
-               <Button className="button-color" radius="xl" style={{flex: 1}}>
+               <Text>⭐ {rating}</Text>
+               <Button size='xs' className="button-color" radius="xl" style={{flex: 1}}>
                   <Link href={`/product/${id}`} className="link">
                      Details
                   </Link>
