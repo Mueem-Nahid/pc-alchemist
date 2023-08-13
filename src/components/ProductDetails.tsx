@@ -1,6 +1,7 @@
 import {Badge, Box, Container, Grid, Group, Image, List, rem, SimpleGrid, Text, useMantineTheme} from '@mantine/core';
 import {IProduct} from "@/utils/globalTypes";
 import {IconCategory, IconCircleCheck, IconListCheck, IconStars, IconTag} from '@tabler/icons-react';
+import Reviews from "@/components/Reviews";
 
 const PRIMARY_COL_HEIGHT = rem(500);
 
@@ -64,6 +65,15 @@ export function ProductDetails({product}: IProductDetailsProps) {
                </Group>
             </Grid>
          </SimpleGrid>
+         {
+            product?.description &&
+             <Box my={5}>
+                 <Text><strong>Description: </strong>{product?.description}</Text>
+             </Box>
+         }
+         <Box my={2}>
+            <Reviews reviews={product?.reviews}/>
+         </Box>
       </Container>
    );
 }

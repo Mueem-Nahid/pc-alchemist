@@ -65,7 +65,10 @@ export function FeaturesCard({id, name, category, image, price, status, rating}:
                   {category}
                </Text>
             </div>
-            <Badge>{status}</Badge>
+            <Badge variant="outline" size='sm'
+                   color={`${status === "In Stock" ? 'blue' : 'red'}`}>
+               {status}
+            </Badge>
          </Group>
 
          <Card.Section className={classes.section}>
@@ -77,7 +80,7 @@ export function FeaturesCard({id, name, category, image, price, status, rating}:
                </div>
 
                <Button className="button-color" radius="xl" style={{flex: 1}}>
-                  <Link href={`product/${id}`} className="link">
+                  <Link href={`/product/${id}`} className="link">
                      Details
                   </Link>
                </Button>

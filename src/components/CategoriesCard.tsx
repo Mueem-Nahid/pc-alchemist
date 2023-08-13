@@ -1,6 +1,8 @@
 import {Card, Center, createStyles, rem, Text} from "@mantine/core";
 
 import Image, {StaticImageData} from "next/image";
+import Link from "next/link";
+import {generateCategorySlug} from "@/utils/utilityFunctions";
 
 const useStyles = createStyles((theme) => ({
    card: {
@@ -49,16 +51,19 @@ interface ICategoriesCardProps {
 
 const CategoriesCard = ({item}: ICategoriesCardProps) => {
    const {classes} = useStyles();
+   const categoryName = generateCategorySlug(item?.title);
 
    return (
-      <Card withBorder radius="md" className={classes.card}>
-         <Card.Section className={classes.imageSection}>
-            <Image src={item.icon} alt="motherboard"/>
-         </Card.Section>
-         <Center>
-            <Text fw={500}>{item.title}</Text>
-         </Center>
-      </Card>
+      <Link href={`/category/${categoryName}`} className="link">
+         <Card withBorder radius="md" className={classes.card}>
+            <Card.Section className={classes.imageSection}>
+               <Image src={item.icon} alt={item.title}/>
+            </Card.Section>
+            <Center>
+               <Text fw={500}>{item.title}</Text>
+            </Center>
+         </Card>
+      </Link>
    );
 };
 

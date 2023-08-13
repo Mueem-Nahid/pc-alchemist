@@ -84,7 +84,7 @@ const categories = [
    },
    {
       icon: GpuIcon,
-      title: 'Others',
+      title: 'Other',
    },
 ];
 

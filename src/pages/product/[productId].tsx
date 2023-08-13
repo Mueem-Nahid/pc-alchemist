@@ -7,7 +7,6 @@ interface IProductPageProps {
 }
 
 export default function ProductPage({product}:IProductPageProps) {
-   console.log(product)
    return (
       <ProductDetails product={product}/>
    );

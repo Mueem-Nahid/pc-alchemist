@@ -97,36 +97,43 @@ const mockdata = [
       icon: IconCpu,
       title: 'CPU / Processor',
       description: 'Central Processing Units (CPUs) for computers',
+      link: '/category/cpu-processor'
    },
    {
       icon: IconArtboard,
       title: 'Motherboard',
       description: 'Main circuit board of a computer that connects various components',
+      link: '/category/motherboard'
    },
    {
       icon: IconAppWindow,
       title: 'Ram',
       description: 'Random Access Memory for temporary data storage',
+      link: '/category/ram'
    },
    {
       icon: IconBatteryCharging2,
       title: 'Power Supply Unit',
       description: 'Provides power to the components in a computer',
+      link: '/category/power-supply-unit'
    },
    {
       icon: IconDeviceSdCard,
       title: 'Storage Device',
       description: 'Data storage devices such as hard drives and solid-state drives',
+      link: '/category/storage-device'
    },
    {
       icon: IconDeviceDesktop,
       title: 'Monitor',
       description: 'Displays for computers',
+      link: '/category/monitor'
    },
    {
       icon: IconComponents,
       title: 'Others',
       description: 'Other PC components and peripherals',
+      link: '/category/other'
    },
 ];
 
@@ -141,14 +148,14 @@ export function Navbar() {
             <ThemeIcon size={34} variant="default" radius="md">
                <item.icon size={rem(22)} color={theme.fn.primaryColor()}/>
             </ThemeIcon>
-            <div>
+            <Link href={item.link} style={{textDecoration: "none", color: "black"}}>
                <Text size="sm" fw={500}>
                   {item.title}
                </Text>
                <Text size="xs" color="dimmed">
                   {item.description}
                </Text>
-            </div>
+            </Link>
          </Group>
       </UnstyledButton>
    ));

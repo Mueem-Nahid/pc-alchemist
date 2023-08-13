@@ -27,4 +27,18 @@ export interface IProduct {
 export interface ICategory {
    name: string;
    description: string;
+   link: string;
+}
+
+export interface IReview {
+   id: number;
+   name: string;
+   review: string;
+   rating: number
+}
+
+export interface ICategory {
+   _id: string;
+   name: string;
+   description: string
 }
