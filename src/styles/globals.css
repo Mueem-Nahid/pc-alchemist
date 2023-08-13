@@ -13,11 +13,11 @@
 }
 
 .button-color {
-    background-color: #A9191A;
+    background-color: #A9191A !important;
 }
 
 .button-color:hover {
-    background-color: #E66061;
+    background-color: #E66061 !important;
 }
 
 .swiper {
