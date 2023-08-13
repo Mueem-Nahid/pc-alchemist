@@ -33,13 +33,13 @@ export default function Home({featuredProducts}: HomeProps) {
 export const getStaticProps = async () => {
    let data;
    try {
-      // if (typeof window === 'undefined') {
-      //    return {
-      //       props: {
-      //          featuredProducts: [],
-      //       },
-      //    };
-      // }
+      /*if (typeof window === 'undefined') {
+         return {
+            props: {
+               featuredProducts: [],
+            },
+         };
+      }*/
       const res = await getFeaturedProducts();
       data = await res.json();
    } catch (e) {

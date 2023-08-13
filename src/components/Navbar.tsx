@@ -30,6 +30,7 @@ import {
 } from '@tabler/icons-react';
 import Image from "next/image";
 import PCAlchemistLogo from "@/assets/pc-alchemist-logo.png";
+import Link from "next/link";
 
 const useStyles = createStyles((theme) => ({
    link: {
@@ -43,7 +44,7 @@ const useStyles = createStyles((theme) => ({
       fontWeight: 500,
       fontSize: theme.fontSizes.sm,
 
-      [theme.fn.smallerThan('sm')]: {
+      [theme.fn?.smallerThan('sm')]: {
          height: rem(42),
          display: 'flex',
          alignItems: 'center',
@@ -79,13 +80,13 @@ const useStyles = createStyles((theme) => ({
    },
 
    hiddenMobile: {
-      [theme.fn.smallerThan('sm')]: {
+      [theme.fn?.smallerThan('sm')]: {
          display: 'none',
       },
    },
 
    hiddenDesktop: {
-      [theme.fn.largerThan('sm')]: {
+      [theme.fn?.largerThan('sm')]: {
          display: 'none',
       },
    },
@@ -134,7 +135,7 @@ export function Navbar() {
    const [linksOpened, {toggle: toggleLinks}] = useDisclosure(false);
    const {classes, theme} = useStyles();
 
-   const links = mockdata.map((item) => (
+   const links = mockdata?.map((item) => (
       <UnstyledButton className={classes.subLink} key={item.title}>
          <Group noWrap align="flex-start">
             <ThemeIcon size={34} variant="default" radius="md">
@@ -159,9 +160,9 @@ export function Navbar() {
                <Image src={PCAlchemistLogo} alt="PCAlchemistLogo" width={140} height={75}/>
 
                <Group sx={{height: '100%'}} spacing={0} className={classes.hiddenMobile}>
-                  <a href="#" className={classes.link}>
+                  <Link href="/" className={classes.link}>
                      Home
-                  </a>
+                  </Link>
                   <HoverCard width={600} position="bottom" radius="md" shadow="md" withinPortal>
                      <HoverCard.Target>
                         <a href="#" className={classes.link}>
@@ -230,15 +231,15 @@ export function Navbar() {
             <ScrollArea h={`calc(100vh - ${rem(60)})`} mx="-md">
                <Divider my="sm" color={theme.colorScheme === 'dark' ? 'dark.5' : 'gray.1'}/>
 
-               <a href="#" className={classes.link}>
+               <Link href="/" className={classes.link}>
                   Home
-               </a>
+               </Link>
                <UnstyledButton className={classes.link} onClick={toggleLinks}>
                   <Center inline>
                      <Box component="span" mr={5}>
                         Categories
                      </Box>
-                     <IconChevronDown size={16} color={theme.fn.primaryColor()}/>
+                     <IconChevronDown size={16} color={theme.fn?.primaryColor()}/>
                   </Center>
                </UnstyledButton>
                <Collapse in={linksOpened}>{links}</Collapse>

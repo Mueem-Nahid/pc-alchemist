@@ -14,6 +14,12 @@ export default function ProductPage({product}:IProductPageProps) {
 }
 
 export const getStaticPaths = async () => {
+   /*if (typeof window === 'undefined') {
+      return {
+         paths:[],
+         fallback:false
+      };
+   }*/
   const res = await getAllProducts();
   const products = await res.json();
   const paths = products.map((product:IProduct) => ({
@@ -25,16 +31,15 @@ export const getStaticPaths = async () => {
 
 export const getStaticProps = async (ctx: { params: { productId: any; }; }) => {
    const id = ctx.params?.productId;
-   console.log("id: ", id)
    let data;
    try {
-      // if (typeof window === 'undefined') {
-      //    return {
-      //       props: {
-      //          featuredProducts: [],
-      //       },
-      //    };
-      // }
+      /*if (typeof window === 'undefined') {
+         return {
+            props: {
+               product: null,
+            },
+         };
+      }*/
       const res = await getProductDetails(id);
       data = await res.json();
    } catch (e) {
