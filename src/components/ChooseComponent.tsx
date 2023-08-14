@@ -1,6 +1,8 @@
 import {Box, Breadcrumbs, Button, Card, Container, createStyles, Group, Image, Text} from '@mantine/core';
 import {IProduct} from "@/utils/globalTypes";
 import Link from "next/link";
+import Cookies from "js-cookie";
+import { useRouter } from 'next/router';
 
 const useStyles = createStyles((theme) => ({
    card: {
@@ -23,8 +25,14 @@ interface IProps {
    category: string
 }
 
+type ComponentObject = {
+   [key: string]: string;
+};
+
 const ChooseComponent = ({components, category}: IProps) => {
    const {classes} = useStyles();
+   const router = useRouter();
+
    const items = [
       {title: 'PC Builder', href: '/tool/pc-builder'},
       {title: `Choose ${category}`, href: `/tool/pc-builder/choose?component=${category}`},
@@ -33,6 +41,22 @@ const ChooseComponent = ({components, category}: IProps) => {
          {item.title}
       </Link>
    ));
+
+   const addToBuilderHandler = (item: IProduct) => {
+      const existingComponents = Cookies.get('components');
+      let componentsArray = [];
+      if (existingComponents) {
+         componentsArray = JSON.parse(existingComponents);
+      }
+      const newItem:ComponentObject = {};
+      newItem[category] = item.name;
+      componentsArray.push(newItem)
+      Cookies.set('components', JSON.stringify(componentsArray), {
+         expires: 2,
+         path: '/',
+      });
+      router.replace('/tool/pc-builder');
+   }
 
    return (
       <Container size="sm" py='2.5rem'>
@@ -65,7 +89,8 @@ const ChooseComponent = ({components, category}: IProps) => {
                         </Group>
 
                      </div>
-                     <Button className="button-color" size='xs' radius='xl'>Select</Button>
+                     <Button onClick={() => addToBuilderHandler(item)} className="button-color" size='xs'
+                             radius='xl'>Add</Button>
                   </Group>
                </Card>
             ))
