@@ -1,6 +1,5 @@
 const URL = process.env.NEXT_PUBLIC_BASE_URL;
 // process.env.NEXT_PUBLIC_BASE_URL;
-// "https://pc-alchemist.vercel.app/api";
 
 export const getAllProducts = async () => {
    return await fetch(`${URL}/products`);
